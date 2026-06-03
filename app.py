@@ -141,10 +141,9 @@ if select == "About Tesla Y Model":
     col1, col2 = st.columns([2, 2])
 
     with col1:
-        st.image(
-            "C:\\Users\\YOUEXCEL\\Desktop\\tesla\\black-2025.webp",
-            use_container_width=True
-        )
+       
+        st.image("black-2025.webp", use_container_width=True)     
+       
     with col2:
         st.markdown("""
     ### 🚘 Tesla Model Y (2024 - Black Edition)
