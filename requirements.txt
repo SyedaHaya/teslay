@@ -1,0 +1,7 @@
+sklearn
+sklearn.preprocessing
+streamlit_option_menu
+streamlit
+pandas
+linear_model
+LabelEncoder
