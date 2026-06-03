@@ -1,7 +1,5 @@
-sklearn
-sklearn.preprocessing
+
 streamlit_option_menu
-streamlit
+scikit-learn
 pandas
 linear_model
-LabelEncoder
