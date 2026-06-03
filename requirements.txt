@@ -2,4 +2,3 @@
 streamlit_option_menu
 scikit-learn
 pandas
-linear_model
