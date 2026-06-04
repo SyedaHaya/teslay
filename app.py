@@ -65,22 +65,22 @@ if select == "Home":
         text="color"
     )
         st.plotly_chart(fig_price)
-fig_year = px.bar(
-            df,
-            x="year",
-            y="price",
-            color="year",
-            text="year",
-        )
-st.plotly_chart(fig_year)
-fig_year = px.pie(
-                    df,
-                    names="year",
-                    values="price",
-                    color="year",
-                    title="Price distribution by year"
-                    )
-st.plotly_chart(fig_year)        
+    fig_year = px.bar(
+                df,
+                x="year",
+                y="price",
+                color="year",
+                text="year",
+            )
+    st.plotly_chart(fig_year)
+    fig_year = px.pie(
+                        df,
+                        names="year",
+                        values="price",
+                        color="year",
+                        title="Price distribution by year"
+                        )
+    st.plotly_chart(fig_year)        
       
 if select == "Predict Price":  
     st.title("Predict Price of Tesla Y Model")
